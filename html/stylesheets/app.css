@@ -1,0 +1,50 @@
+/* Artfully masterminded by ZURB  */
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.centered { text-align: center; }
+.top-bar, footer { background-color: #4D4D4D;}
+nav .nav-bar { margin-top: 0; }
+
+footer.row {
+	margin-top: 30px;
+}
+
+footer h6 {
+	margin-bottom: 5px;
+}
+
+footer h6, footer p {
+	color: #BBB;
+}
+
+footer a {
+	color: #CCC;
+}
+
+footer a:hover { color: #FFF; }
+
+#lista li { margin-bottom: 30px;}
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+

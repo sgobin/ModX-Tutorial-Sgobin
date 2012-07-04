@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>ACME</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<header>
+ <div class="row">
+  <div class="top-bar attached">
+    <nav>
+          <ul class="nav-bar attached">
+            <li><a href="index.html">Home</a></li>
+            <li class="has-flyout">
+              <a href="produtos.html">Produtos</a>
+              <ul class="flyout">
+                <li><a href="#">Alpiste</a></li>
+                <li><a href="#">Pistola Desintegradora</a></li>
+                <li><a href="#">DIY Kit para Tornados</a></li>
+                <li><a href="#">Pírulas de Terremoto</a></li>
+              </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
+          </ul>
+      </nav>
+  </div>
+</header>
+
+<div class="corpo">
+
+<div class="row">
+  <div class="twelve columns">
+      <h4 class="subheader">Fale Conosco</h4>
+      <h1>Formulário para Contato</h1>
+      <hr>
+      <form>
+  
+    <div class="row">
+      <div class="six columns">
+        
+        <label for="nome">Nome</label>
+        <input name="nome" id="nome" type="text" />
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        
+        <label for="email">Email</label>
+        <input name="email" id="email" type="text" />
+        
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="six columns">
+        <label for="endereco" >Endereço Completo</label>
+    <input name="endereco" id="endereco" type="text" placeholder="Rua, numero e complementos" />
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="six columns">
+        <input type="submit" class="radius button" value="Enviar Formulário" />
+      </div>
+    </div>
+
+</form>
+  </div>
+</div>
+</div>
+
+
+
+</div><!-- /.corpo -->
+
+  <footer class="row">
+    <div class="twelve columns">
+      <h6>ACME On-Line</h6>
+      <p>Um site fictício para servir de base para o tutorial de ModX Revolution. Para o tutorial veja: <a href="http://www.richardsgobin.com.br">www.richardsgobin.com.br</a></p>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Included JS Files -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/jquery.reveal.js"></script>
+  <script src="javascripts/jquery.orbit-1.4.0.js"></script>
+  <script src="javascripts/jquery.customforms.js"></script>
+  <script src="javascripts/jquery.placeholder.min.js"></script>
+  <script src="javascripts/jquery.tooltips.js"></script>
+  <script src="javascripts/app.js"></script>
+
+</body>
+</html>

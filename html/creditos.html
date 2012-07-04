@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>ACME</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<header>
+ <div class="row">
+  <div class="top-bar attached">
+    <nav>
+          <ul class="nav-bar attached">
+            <li><a href="index.html">Home</a></li>
+            <li class="has-flyout">
+              <a href="produtos.html">Produtos</a>
+              <ul class="flyout">
+                <li><a href="#">Alpiste</a></li>
+                <li><a href="#">Pistola Desintegradora</a></li>
+                <li><a href="#">DIY Kit para Tornados</a></li>
+                <li><a href="#">Pírulas de Terremoto</a></li>
+              </ul>
+            </li>
+            <li><a href="suporte.html">Suporte</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+            <li class="right"><a href="creditos.html">Créditos</a></li>
+          </ul>
+      </nav>
+  </div>
+</header>
+
+<div class="corpo">
+
+<div class="row">
+  <div class="twelve columns">
+      <h4 class="subheader">Créditos</h4>
+      <h1>De onde veio isso?</h1>
+      <hr>
+      <p>Esse site é apenas um marcador para um tutorial do excelente gerenciador de conteúdo ModX. Eu precisava de uma base em HTML para converter em modelos no ModX então aproveitei para testar o novo Zurb Foundation 3 e montar um protótipo.</p>
+      <p>Abaixo alguns créditos das ferramentas e inspirações para o desenvolvimento:</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="three columns">
+    <h4><a href="http://www.youtube.com/playlist?list=PL31C21F9F3A7C758A">O Tutorial</a></h4>
+    <p>O tutorial sobre ModX Revolution está em produção e os videos estão no Youtube. Aproveite para se inscrever e também visitar o <a href="http://www.richardsgobin.com.br">blog</a>.</p>
+  </div>
+  <div class="three columns">
+    <h4><a href="http://modx.com/software/open-source-cms/modx-revolution/">ModX</a></h4>
+    <p>Um ótimo CMS open source. Ótimo para designers, você acrescentar porções do ModX em seu HTML sem se preocupar em seguir e modificar padrões de layout estabelecidos.</p>
+  </div>
+  <div class="three columns">
+    <h4><a href="http://foundation.zurb.com/">Foundation 3</a></h4>
+    <p>Zurb Foundation é um framework responsivo para desenvolvimento em HTML, CSS e JS. Na versão 3 há opção de baixar o framework em SASS.</p>
+  </div>
+  <div class="three columns">
+    <h4><a href="http://home.roadrunner.com/~tuco/looney/acme.html">Os Produtos</a></h4>
+    <p>Já que era necessária uma listagem para exemplificar algumas funções, porque não utilizar a "mais poderosa" corporação dos desenhos animados?</p>
+  </div>
+</div>
+
+</div><!-- /.corpo -->
+
+  <footer class="row">
+    <div class="twelve columns">
+      <h6>ACME On-Line</h6>
+      <p>Um site fictício para servir de base para o tutorial de ModX Revolution. Para o tutorial veja: <a href="http://www.richardsgobin.com.br">www.richardsgobin.com.br</a></p>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Included JS Files -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/jquery.reveal.js"></script>
+  <script src="javascripts/jquery.orbit-1.4.0.js"></script>
+  <script src="javascripts/jquery.customforms.js"></script>
+  <script src="javascripts/jquery.placeholder.min.js"></script>
+  <script src="javascripts/jquery.tooltips.js"></script>
+  <script src="javascripts/app.js"></script>
+
+</body>
+</html>
